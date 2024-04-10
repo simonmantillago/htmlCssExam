@@ -133,7 +133,7 @@ body{
 
 @media (min-width: 650px) {
     .container{
-        gap: 100px;
+        gap: 50px;
         padding: 0 90px 0 90px;
     }
     .top{
