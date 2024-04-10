@@ -87,7 +87,7 @@ body{
     align-items: center ;
     gap: 20px;
     background-color:#FFFDFC;
-    border-radius: 60px;
+    border-radius: 70px;
     
 }
 .card{
@@ -132,6 +132,10 @@ body{
 }
 
 @media (min-width: 650px) {
+    .container{
+        gap: 100px;
+        padding: 0 90px 0 90px;
+    }
     .top{
         position: relative;
         justify-content: flex-start;
@@ -142,7 +146,7 @@ body{
     .bobba-img{
         width: 100px;
         position: absolute;
-        top: -2vh;
+        top: 0vh;
         left: 3vw;
 
     }
@@ -151,11 +155,12 @@ body{
         width: 80%;
     }
     .main-txt p{
-        font-size: 1.1em;
+        font-size: 1.3em;
         width: 33%;
     }
     .boton	{
         align-self: self-start;
+        font-size: 1.3em;
     }.down{
         display: flex;
         align-items: center;
@@ -177,7 +182,7 @@ body{
     
     .background-img{
         top: 0cm;
-        left: 42vw;
+        left: 53vw;
         filter: blur(0px);
     } 
     
